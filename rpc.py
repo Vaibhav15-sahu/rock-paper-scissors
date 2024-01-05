@@ -19,7 +19,7 @@ def start_game():
         else :
             print("Computer Win!")
 
-    another_game = input("Do you wanna play again? (y/n) : \n")
+    another_game = input("Do you wanna play again? (y/n) : ")
     if(another_game == 'y'):
         start_game()
     else:
